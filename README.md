@@ -16,9 +16,9 @@
 
 ## Installation
 
-First you need to clone the repository using git clone.
-`git clone https://github.com/Shreyas-ITB/VoiceGPT`
-Or just download the latest release from the [releases page]()
+First you need to clone the repository using git clone. \
+`git clone https://github.com/Shreyas-ITB/VoiceGPT` \
+Or just download the latest release from the [releases page]() 
 
 Now you need cookies from your Microsoft Edge browser. To get that open your Edge browser and install this extension.
 - [for chrome or chromium based browsers](https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm)
@@ -28,14 +28,15 @@ Now you need cookies from your Microsoft Edge browser. To get that open your Edg
 - Click "Export" on the bottom right, then "Export as JSON" (This saves your cookies to clipboard)
 - Go to the config directory, open the cookies.json file and paste your cookie data.
 
-In the terminal or CMD enter the below command to install the project module requirements
-`pip install -r ./config/requirements.txt`
-or on windows
+In the terminal or CMD enter the below command to install the project module requirements. \
+`pip install -r ./config/requirements.txt` \
+or on windows \
 `pip install -r .\config\requirements.txt`
 
 Now you need to configure the config.ini file as per your prefrence.
 - The config.ini file is located in the config directory.
-```[Default]
+``
+[Default]
 # Leave this default if your model file name is the same.
 # Enter your model file name in the below field.
 
@@ -61,5 +62,6 @@ LLaMainit = no
 # However if you want the Voice input then change the below setting to voice instead of text.
 # Voice will activate the AI using your voice. Text will allow you to type the prompt!
 
-Inputmode = text```
+Inputmode = text
+``
 
