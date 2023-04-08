@@ -35,7 +35,7 @@ or on windows
 
 Now you need to configure the config.ini file as per your prefrence.
 - The config.ini file is located in the config directory.
-`[Default]
+```[Default]
 # Leave this default if your model file name is the same.
 # Enter your model file name in the below field.
 
@@ -61,5 +61,5 @@ LLaMainit = no
 # However if you want the Voice input then change the below setting to voice instead of text.
 # Voice will activate the AI using your voice. Text will allow you to type the prompt!
 
-Inputmode = text`
+Inputmode = text```
 
