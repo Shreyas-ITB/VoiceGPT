@@ -64,4 +64,18 @@ LLaMainit = no
 
 Inputmode = text
 ```
+If you want to use Alpaca, Vicunia, LLaMa models locally then you can download the model from huggingface and paste it in the models directory. \
+If you have a `.pth` file then you can use the `convert-pth-to-ggml.py` file to convert it. Note that only ggml format models can run. \
+Also note that the ModelFilename should be the exact file name of your model that you added in the models directory.
 
+Once you have configured everything, you can now proceed to run the project.
+- To do so, in the terminal just enter the below command.
+- `python3 main.py`
+- Or if you have windows just enter this command.
+- `python main.py`
+
+If you downloaded the project from the releases page just run the executable.
+- On linux and mac
+- `./main`
+- On windows
+- `main.exe`
