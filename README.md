@@ -64,11 +64,18 @@ LLaMainit = no
 
 Inputmode = text
 ```
-If you want to use Alpaca, Vicunia, LLaMa models locally then you can download the model from huggingface and paste it in the models directory. \
+If you want to use Alpaca, Vicunia or LLaMa model locally then you can download the model from huggingface and paste it in the models directory. \
 If you have a `.pth` file then you can use the `convert-pth-to-ggml.py` file to convert it. Note that only ggml format models can run. \
 Also note that the ModelFilename should be the exact file name of your model that you added in the models directory.
 
-Once you have configured everything, you can now proceed to run the project.
+Now its time to compile the C++ files.
+- On linux or mac, open up a terminal in the project's directory, and enter this command.
+- `make`
+- On Windows you might have to install [cmake](https://cmake.org/download/)
+- After that just open up CMD in the project's directory and enter the below command.
+- `cmake .`
+
+Once you have followed the previous steps, you can now proceed to run the project.
 - To do so, in the terminal just enter the below command.
 - `python3 main.py`
 - Or if you have windows just enter this command.
@@ -79,3 +86,15 @@ If you downloaded the project from the releases page just run the executable.
 - `./main`
 - On windows
 - `main.exe`
+
+And there you have it. Now you can talk to your very own AI!
+
+## Projects used
+- [OpenAI Whisper](https://github.com/openai/whisper)
+- [LLaMa.cpp](https://github.com/ggerganov/llama.cpp)
+- [EdgeGPT](https://github.com/acheong08/EdgeGPT)
+- [Alpaca.http](https://github.com/edfletcher/alpaca.http)
+- [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp)
+
+# Contributions
+Any contributions, bug reports or pull requests with good intention will be always appreciated.
