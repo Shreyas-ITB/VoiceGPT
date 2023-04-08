@@ -6,4 +6,14 @@
  - The speed of everything here depends upon your PC specs. As the Voice recognition uses OpenAI's [Tiny Whisper Model](https://github.com/openai/whisper) that will be running on your PC to get the voice data.
  - Both GPUs and CPUs are supported, However GPUs are preferred more due to their speed. CPUs can work too but they will be kind of slower compared to GPU computing.
  - The Project is fully customisable! as it has a config file which has all the settings necessary to run the project on your local computer.
+ - 
+## Requirements
 
+- You need Python 3.9 as Pytorch doesn't support the latest versions.
+- You need a good PC to run the models. Mid range hardware with minimal processor will also work.
+
+## Installation
+
+First you need cookies from your Microsoft Edge browser. To get that open your Edge browser and install this extension.
+- [for chrome or chromium based browsers](https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm)
+- [for firefox](https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/)
