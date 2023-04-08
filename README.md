@@ -23,7 +23,7 @@ Or just download the latest release from the [releases page]()
 Now you need cookies from your Microsoft Edge browser. To get that open your Edge browser and install this extension.
 - [for chrome or chromium based browsers](https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm)
 - [for firefox](https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/)
-- Go to `bing.com`on your microsoft browser
+- Go to `bing.com` on your microsoft browser
 - Open the extension
 - Click "Export" on the bottom right, then "Export as JSON" (This saves your cookies to clipboard)
 - Go to the config directory, open the cookies.json file and paste your cookie data.
@@ -35,7 +35,7 @@ or on windows \
 
 Now you need to configure the config.ini file as per your prefrence.
 - The config.ini file is located in the config directory.
-``
+```
 [Default]
 # Leave this default if your model file name is the same.
 # Enter your model file name in the below field.
@@ -63,5 +63,5 @@ LLaMainit = no
 # Voice will activate the AI using your voice. Text will allow you to type the prompt!
 
 Inputmode = text
-``
+```
 
