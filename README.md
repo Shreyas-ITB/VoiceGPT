@@ -96,5 +96,5 @@ And there you have it. Now you can talk to your very own AI!
 - [Alpaca.http](https://github.com/edfletcher/alpaca.http)
 - [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp)
 
-# Contributions
+### Contributions
 Any contributions, bug reports or pull requests with good intention will be always appreciated.
